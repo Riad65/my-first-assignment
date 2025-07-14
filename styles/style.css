@@ -37,6 +37,19 @@ nav ul li {
     margin: 20px 500px;
 }
 
+.btnprimary2{
+    background-color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: -20px;
+  
+}
+
 
 .banner{
     font-size: 45px;
@@ -67,3 +80,260 @@ nav ul li {
     background-repeat: none;
 }
 
+.section-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    
+}
+
+.section-description{
+    font-size: 24px;
+    color: #504f58;
+    text-align: start;
+    margin: 0%;
+    
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+   justify-content: space-between;
+   display: flex;
+   align-items: center;
+}
+
+.img {
+    border-radius: 15px;
+}
+
+.stats-section {
+  background-color: #e8eaff; 
+  text-align: center;
+  padding: 50px 20px;
+  color: #1e1e2f;
+  margin: 100px;
+}
+
+.stats-section h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.stat-box h3 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #4a45ff;
+  margin-bottom: 5px;
+}
+
+.stat-box p {
+  font-size: 14px;
+  color: #777;
+  margin: 0;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7ff;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  gap: 60px;
+  flex-wrap: wrap;
+  background-color: #f5f7ff;
+}
+
+.contact-left h1 {
+  font-size: 48px;
+    font-weight: 700;
+  color: #111;
+  line-height: 1.2;
+}
+
+.contact-right {
+  max-width: 400px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form label {
+  font-size: 14px;
+  color: #444;
+  font-weight: 500;
+}
+
+form input,
+form textarea {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  resize: none;
+}
+
+form button {
+  background-color: #4a45ff;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #3b36d6;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+}
+
+.footer {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.logo {
+  font-size: 64px;
+  color: #4f46e5; /* Bright blue-purple color */
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  color: #8888aa;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #8888aa;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #4f46e5;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f7ff;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8faff;
+  color: #1e1e1e;
+}
+
+.feedback-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.feedback-section h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: white;
+  padding: 20px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.stars {
+  color: #f7b500;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonial-card h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.testimonial-card p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer .name {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.reviewer .date {
+  font-size: 12px;
+  color: #888;
+}
